@@ -55,18 +55,6 @@ display: none;
     margin-top: 18px;
     margin-left: 5px;
 }
-.navbar1-toggle{
-    position: relative;
-    float: right;
-    padding: 9px 10px;
-    margin-right: 15px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    background-color: transparent;
-    background-image: none;
-    border: 1px solid #666666;
-    border-radius: 4px;
-}
 .navbutton
 {
     padding: 10px;
@@ -166,7 +154,8 @@ a:hover span
 }
 table {
   border-collapse: collapse;
-  width: 100%;
+    width: 100%;
+    position: static;
 }
 table th
 {
@@ -337,3 +326,27 @@ th {
     float: right;
     margin-right: 2px;
 }
+
+@media screen and (max-width: 410px)
+{
+   #customers
+    {
+     
+    }
+}
+/*@media screen and (max-width: 400px)
+{
+    .content
+    {
+        position: fixed;
+    }
+    .tabledata
+    {
+        padding-top: 150px;
+    }
+    .rightmostarea
+    {
+        position:fixed;
+    }
+
+}*/
